@@ -41,7 +41,7 @@ info(){
     
     echo
     echo
-    echo "Informação do kernel:"
+    echo "Kernel:"
     echo
     
     cat /proc/version
@@ -49,7 +49,7 @@ info(){
     
     echo
     echo
-    echo "Informaõs de armazenamento:"
+    echo "Memória:"
     echo
     
     free
@@ -57,14 +57,14 @@ info(){
     
     echo
     echo
-    echo "Infoemações da CPU:"
+    echo "CPU:"
     
     cat /proc/cpuinfo
     sleep 0.5
     
     echo
     echo
-    echo "informações de dispositivos USB conectados:"
+    echo "Dispositivos USB conectados:"
     echo
     
     lsusb
@@ -72,7 +72,7 @@ info(){
     
     echo
     echo
-    echo "Informação sobre partições:"
+    echo "Partições montadas:"
     echo
     
     df -h
@@ -80,7 +80,7 @@ info(){
     
     echo
     echo
-    echo "Infoemações sobre dispositivos PCI:"
+    echo "Dispositivos PCI:"
     echo
     
     lspci
@@ -115,7 +115,7 @@ infoprint(){
     echo
     VERMELHOCLARO
     VERMELHOREVERSO
-    echo "Informações do kernel:"
+    echo "Kernel:"
     CORZERO
     VERMELHO
     
@@ -125,7 +125,7 @@ infoprint(){
     echo
     VERMELHOCLARO
     VERMELHOREVERSO
-    echo "Informações de armazenamento:"
+    echo "Memória:"
     CORZERO
     VERMELHO
     
@@ -135,7 +135,7 @@ infoprint(){
     echo
     VERMELHOCLARO
     VERMELHOREVERSO
-    echo "Informações da CPU:"
+    echo "CPU:"
     CORZERO
     VERMELHO
     
@@ -145,7 +145,7 @@ infoprint(){
     echo
     VERMELHOCLARO
     VERMELHOREVERSO
-    echo "informações de dispositivos USB conectados:"
+    echo "Dispositivos USB conectados:"
     CORZERO
     VERMELHO
     
@@ -155,7 +155,7 @@ infoprint(){
     echo
     VERMELHOCLARO
     VERMELHOREVERSO
-    echo "Informações sobre partições:"
+    echo "Partições Montadas:"
     CORZERO
     VERMELHO
     
@@ -166,7 +166,7 @@ infoprint(){
     CORZERO
     VERMELHOCLARO
     VERMELHOREVERSO
-    echo "Informações sobre dispositivos PCI"
+    echo "Dispositivos PCI:"
     VERMELHO
     
     lspci
@@ -209,7 +209,6 @@ root(){
     echo
     figlet "INFO"
     sleep 0.3
-    echo -e "\033[01;34m@\033[01;30mArk-\033[00;00;00m\033[07;31mc3"
 
     CORZERO
     echo
@@ -269,7 +268,6 @@ user(){
     echo
     figlet "INFO"
     sleep 0.3
-    echo -e "\033[01;34m@\033[01;30mArk-\033[00;00;00m\033[07;31mc3"
 
     CORZERO
     echo
