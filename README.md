@@ -1,5 +1,5 @@
 # System Info
-**Script feito em shell para poder pegar informações da máquina**
+**Script feito em shell para poder pegar informações da máquina e salvar em um arquivo de texto.**
 
 *Testado apenas no Debian*
 
